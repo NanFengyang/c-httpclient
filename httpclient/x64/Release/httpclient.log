@@ -1,0 +1,21 @@
+﻿  base64.cpp
+  dll_init.cpp
+  file_reader.cpp
+  file_writer.cpp
+  http_client.cpp
+  http_header_parser.cpp
+  http_pool.cpp
+  http_post_file.cpp
+  http_request.cpp
+  http_response.cpp
+  http_response_receiver.cpp
+  http_thread.cpp
+  proxy_socket .cpp
+  socket_helper.cpp
+  streaming_socket.cpp
+  thread.cpp
+  url_parser.cpp
+  util.cpp
+  正在生成代码...
+    正在创建库 E:\httpclient_class\httpclient-master\x64\Release\httpclient.lib 和对象 E:\httpclient_class\httpclient-master\x64\Release\httpclient.exp
+LINK : fatal error LNK1561: 必须定义入口点

@@ -1,0 +1,75 @@
+﻿  base64.cpp
+  dll_init.cpp
+  file_reader.cpp
+  file_writer.cpp
+  http_client.cpp
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(55): warning C4251: “Http::ProxyConfig::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(57): warning C4251: “Http::ProxyConfig::_username”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(58): warning C4251: “Http::ProxyConfig::_password”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\streaming_socket.h(38): warning C4251: “Http::StreamingSocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::StreamingSocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_socket.h(39): warning C4251: “Http::ProxySocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::ProxySocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  http_header_parser.cpp
+  http_pool.cpp
+  http_post_file.cpp
+e:\httpclient_class\httpclient-master\httpclient\http_post_file.h(45): warning C4251: “Http::IHttpPostFile::_filename”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::IHttpPostFile”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\http_post_file.h(46): warning C4251: “Http::IHttpPostFile::_content_type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::IHttpPostFile”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\http_post_file.h(58): warning C4251: “Http::HttpFileStream::_filepath”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“Http::HttpFileStream”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2635): note: 参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\http_post_file.h(71): warning C4251: “Http::HttpMemoryStream::_data”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::HttpMemoryStream”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(55): warning C4251: “Http::ProxyConfig::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(57): warning C4251: “Http::ProxyConfig::_username”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(58): warning C4251: “Http::ProxyConfig::_password”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\streaming_socket.h(38): warning C4251: “Http::StreamingSocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::StreamingSocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_socket.h(39): warning C4251: “Http::ProxySocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::ProxySocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  http_request.cpp
+  http_response.cpp
+e:\httpclient_class\httpclient-master\httpclient\http_response.h(32): warning C4251: “Http::HttpResponse::_header”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::HttpResponse”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\http_response.h(33): warning C4251: “Http::HttpResponse::_body”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::HttpResponse”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  http_response_receiver.cpp
+  http_thread.cpp
+  proxy_socket .cpp
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(55): warning C4251: “Http::ProxyConfig::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(57): warning C4251: “Http::ProxyConfig::_username”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_config.h(58): warning C4251: “Http::ProxyConfig::_password”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“Http::ProxyConfig”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\streaming_socket.h(38): warning C4251: “Http::StreamingSocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::StreamingSocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+e:\httpclient_class\httpclient-master\httpclient\proxy_socket.h(39): warning C4251: “Http::ProxySocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::ProxySocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+proxy_socket .cpp(252): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+  socket_helper.cpp
+socket_helper.cpp(29): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(2238): note: 参见“gethostbyname”的声明
+socket_helper.cpp(173): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(1850): note: 参见“inet_addr”的声明
+socket_helper.cpp(176): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(2238): note: 参见“gethostbyname”的声明
+  streaming_socket.cpp
+e:\httpclient_class\httpclient-master\httpclient\streaming_socket.h(38): warning C4251: “Http::StreamingSocket::_host_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Http::StreamingSocket”的客户端使用
+  D:\visualstudio\step\VC\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  thread.cpp
+  url_parser.cpp
+  util.cpp
+    正在创建库 E:\httpclient_class\httpclient-master\\bin\httpclient.lib 和对象 E:\httpclient_class\httpclient-master\\bin\httpclient.exp
+  正在生成代码
+  All 871 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  httpclient.vcxproj -> E:\httpclient_class\httpclient-master\\bin\httpclient.dll
+  httpclient.vcxproj -> E:\httpclient_class\httpclient-master\\bin\httpclient.pdb (Full PDB)
